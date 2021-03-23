@@ -5,5 +5,5 @@ shopping_dict = {
     "cukiernia" : ["Kokosanki","Beza","Tort"]
 }
 for key , values in shopping_dict.items():
-    print(f"Idę do {key.capitalize()}, kupuję tu nastepujące rzeczy: {values}" )
+    print(f"Idę do {key.capitalize()}, kupuję tu : {values}" )
 print(f"W sumie kupuje {len(lista_zakupów)} produktów. ")
